@@ -178,7 +178,9 @@ graph TD
     class HEAL,PROD,ROB,NC health
 ```
 
-> **Complete ecosystem domain concept map.** Reproducible per CR-WSF-17 Rev.1 §14.
+## **Complete ecosystem domain concept map.** 
+> Reproducible per CR-WSF-17 Rev.1 §14.
+
 ```mermaid
 graph LR
     %% Tier 1: Core Primitives (rounded nodes)
