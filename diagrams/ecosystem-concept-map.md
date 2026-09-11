@@ -19,16 +19,16 @@ graph TD
         MES["wsf:Measure"]
     end
 
-    subgraph "Tier 3 — Worked Example"
+    subgraph "Tier 3: Worked Example"
         ECO["wsf:Ecosystem<br/>(WORKED EXAMPLE)"]
     end
 
-    subgraph "Tier 3 — Top-Level Specialisations"
+    subgraph "Tier 3: Top-Level Specialisations"
         BE["wsf:Business Ecosystem"]
         DBE["wsf:Digital Business Ecosystem"]
     end
 
-    subgraph "Tier 3 — Actors"
+    subgraph "Tier 3: Actors"
         ORCH["wsf:Orchestrator<br/>(Keystone)"]
         COMP["wsf:Complementor<br/>(Niche Player)"]
         DOM["wsf:Dominator<br/>(degraded)"]
@@ -37,7 +37,7 @@ graph TD
         BS["wsf:Boundary Spanner"]
     end
 
-    subgraph "Tier 3 — Structure"
+    subgraph "Tier 3: Structure"
         PLAT["wsf:Platform"]
         MKT["wsf:Marketplace"]
         BR["wsf:Boundary Resources"]
@@ -46,7 +46,7 @@ graph TD
         CPL["wsf:Coupling Level"]
     end
 
-    subgraph "Tier 3 — Value Dynamics"
+    subgraph "Tier 3: Value Dynamics"
         NE["wsf:Network Effect"]
         DNE["wsf:Direct NE"]
         INE["wsf:Indirect NE"]
@@ -57,7 +57,7 @@ graph TD
         LOCK["wsf:Lock-In"]
     end
 
-    subgraph "Tier 3 — Governance"
+    subgraph "Tier 3: Governance"
         GOV["wsf:Governance"]
         DRA["wsf:Decision Rights Allocation"]
         COOP["wsf:Coopetition"]
@@ -65,14 +65,14 @@ graph TD
         TM["wsf:Trust Mechanisms"]
     end
 
-    subgraph "Tier 3 — Lifecycle"
+    subgraph "Tier 3: Lifecycle"
         LC_B["wsf:Birth"]
         LC_E["wsf:Expansion"]
         LC_L["wsf:Leadership"]
         LC_R["wsf:Self-Renewal or Death"]
     end
 
-    subgraph "Tier 3 — Health"
+    subgraph "Tier 3: Health"
         HEAL["wsf:Ecosystem Health"]
         PROD["wsf:Productivity"]
         ROB["wsf:Robustness"]

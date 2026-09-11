@@ -50,4 +50,4 @@ stateDiagram-v2
 1. States are **states** (specialisations of `wsf:State`), not a strictly linear path.
 2. Transitions are **Events** that can be asserted with provenance.
 3. Each state assertion MUST carry time validity.
-4. Health, governance, and risk profiles differ per state — prescriptive analysis requires state context.
+4. Health, governance, and risk profiles differ per state: prescriptive analysis requires state context.

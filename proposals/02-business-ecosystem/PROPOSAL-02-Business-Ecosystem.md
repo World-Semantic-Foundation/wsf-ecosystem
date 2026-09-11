@@ -1,4 +1,4 @@
-# Proposal 02 — Business Ecosystem (Tier 3 Specialisation of `wsf:Ecosystem`)
+# Proposal 02: Business Ecosystem (Tier 3 Specialisation of `wsf:Ecosystem`)
 
 > **Status:** Candidate → Investigating
 > **Proposed tier:** Tier 3 (specialisation)
@@ -17,16 +17,16 @@ A value-oriented ecosystem of organisations and economic actors operating within
 
 ## 3. Intent
 
-To specialise the general Ecosystem concept with the domain constraints that define business ecosystems — distinguishing them from biological, technological-infrastructural, or purely digital ecosystems that lack the value-creation orientation.
+To specialise the general Ecosystem concept with the domain constraints that define business ecosystems: distinguishing them from biological, technological-infrastructural, or purely digital ecosystems that lack the value-creation orientation.
 
 ## 4. Intuition
 
-A business ecosystem is what you have when companies, customers, suppliers, complementors, and regulators form a recognisable community whose behaviour shapes and is shaped by market dynamics — Moore's "economic community" of "organisms and their environment".
+A business ecosystem is what you have when companies, customers, suppliers, complementors, and regulators form a recognisable community whose behaviour shapes and is shaped by market dynamics: Moore's "economic community" of "organisms and their environment".
 
 ## 5. Necessary conditions
 
 1. **All Ecosystem necessary conditions** (inherited).
-2. **Economic agency.** Constituent entities MUST have economic agency — they produce, exchange, or capture value.
+2. **Economic agency.** Constituent entities MUST have economic agency: they produce, exchange, or capture value.
 3. **Value orientation.** Interactions MUST be oriented toward value creation, exchange, or capture (not purely informational or recreational).
 4. **Shared market context.** Entities MUST operate within a shared market, regulatory, or competitive context.
 

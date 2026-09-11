@@ -1,11 +1,11 @@
 # Value Exchange
 
-> **The transfer of tangible or intangible value between actors — the fundamental edge of the ecosystem graph.**
+> **The transfer of tangible or intangible value between actors: the fundamental edge of the ecosystem graph.**
 
 ```yaml
 semantic_id: wsf:Value Exchange
 preferred_name: Value Exchange
-aliases: [VEN — Value Exchange Network]
+aliases: [VEN: Value Exchange Network]
 status: Baseline
 version: 0.1.0
 classification: Tier 3 (Specialisation)
@@ -15,7 +15,7 @@ domain: Value Dynamics
 
 ## Definition
 
-**Short:** The transfer of value (money, goods, services, data, attention, reputation) between actors — the fundamental edge of the ecosystem graph.
+**Short:** The transfer of value (money, goods, services, data, attention, reputation) between actors: the fundamental edge of the ecosystem graph.
 
 ## Relationships
 

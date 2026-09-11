@@ -1,6 +1,6 @@
-# Research 02 — Tier-Classification Rationale
+# Research 02: Tier-Classification Rationale
 
-> Investigation finding — explicit application of the four-check validation framework to every concept surfaced by source reconciliation, with rejection rationale for any concept that fails a higher-tier check.
+> Investigation finding: explicit application of the four-check validation framework to every concept surfaced by source reconciliation, with rejection rationale for any concept that fails a higher-tier check.
 
 ## 1. Method
 
@@ -8,25 +8,25 @@ Each concept is subjected to all four checks. The highest tier at which the conc
 
 ## 2. The four checks
 
-### Check 1 — Irreducibility (Tier 1)
+### Check 1: Irreducibility (Tier 1)
 
 **Question:** Can the concept be defined *without* depending on other WSF concepts?
 **Pass condition:** All five Tier 1 necessary conditions for the concept's ontological category (Existence/Occurrence/Condition/Relation/Identity/Semantics/Proposition/Assertion/Qualification/Temporality/Spatiality/Epistemics) can be stated using only Tier 1 primitives.
-**Result for every ecosystem-domain concept: FAIL.** Each concept requires Entity, Relationship, Disposition, State, Context, or some combination thereof as primitives — none is itself irreducible.
+**Result for every ecosystem-domain concept: FAIL.** Each concept requires Entity, Relationship, Disposition, State, Context, or some combination thereof as primitives: none is itself irreducible.
 
-### Check 2 — Scaffolding role (Tier 2)
+### Check 2: Scaffolding role (Tier 2)
 
 **Question:** Does the concept provide epistemic or identification scaffolding?
 **Pass condition:** The concept is a kind of Identifier, Reference, Namespace, Term, Definition, Validity, Evidence, Provenance, or Authority.
-**Result for every ecosystem-domain concept: FAIL.** None is a scaffolding construct — they are domain concepts that *use* scaffolding concepts but are not themselves scaffolding.
+**Result for every ecosystem-domain concept: FAIL.** None is a scaffolding construct: they are domain concepts that *use* scaffolding concepts but are not themselves scaffolding.
 
-### Check 3 — Specialisation + mechanism template (Tier 3)
+### Check 3: Specialisation + mechanism template (Tier 3)
 
 **Question:** Does the concept (a) have a Tier 1 parent, (b) add identifiable conditions/constraints, (c) satisfy the mechanism template (trigger/effect/context)?
 **Pass condition:** All three sub-conditions hold.
 **Result for every ecosystem-domain concept: PASS** (each is a specialisation of a Tier 1 primitive with identifiable conditions and a mechanism-like structure).
 
-### Check 4 — Lifecycle gate
+### Check 4: Lifecycle gate
 
 **Question:** Has the concept flowed through Discovery → Definition → Review → Authorisation → Formalisation → Publication?
 **Pass condition:** Status reaches Baseline (ADR exists).
@@ -97,11 +97,11 @@ The `Capability` precedent establishes that some Tier 3 specialisations warrant 
 
 ## 5. Note on the `Actor` concept
 
-`wsf:Actor` already exists in the WSF Tier 3 vocabulary (per the `wsf/concepts/` directory listing). This repo does **not** redefine it; rather, it inherits it and specialises it into Orchestrator, Complementor, Dominator, Gatekeeper, Prosumer, and Boundary Spanner. This is the correct lineage behaviour — the ecosystem taxonomy is built on top of the existing WSF actor concept.
+`wsf:Actor` already exists in the WSF Tier 3 vocabulary (per the `wsf/concepts/` directory listing). This repo does **not** redefine it; rather, it inherits it and specialises it into Orchestrator, Complementor, Dominator, Gatekeeper, Prosumer, and Boundary Spanner. This is the correct lineage behaviour: the ecosystem taxonomy is built on top of the existing WSF actor concept.
 
 ## 6. Conclusion
 
-All 39 concepts in this repo are correctly placed at Tier 3 (or worked-example status for `Ecosystem`). No concept in this repo is, or should be, at Tier 1 or Tier 2. The repo demonstrates — by example — how the WSF Tier 3 mechanism templates and specialisation patterns support a full domain ontology.
+All 39 concepts in this repo are correctly placed at Tier 3 (or worked-example status for `Ecosystem`). No concept in this repo is, or should be, at Tier 1 or Tier 2. The repo demonstrates: by example: how the WSF Tier 3 mechanism templates and specialisation patterns support a full domain ontology.
 
 ---
 *Tier-classification rationale complete. Per-check reasoning documented for every concept.*

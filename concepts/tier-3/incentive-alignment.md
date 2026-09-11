@@ -7,14 +7,14 @@ semantic_id: wsf:Incentive Alignment
 preferred_name: Incentive Alignment
 status: Baseline
 version: 0.1.0
-classification: Tier 3 (Specialisation — disposition)
+classification: Tier 3 (Specialisation: disposition)
 parent: wsf:Disposition
 domain: Governance
 ```
 
 ## Definition
 
-**Short:** Revenue sharing, grants, recognition, data rights — the economic engine of governance that aligns self-interest with ecosystem interest.
+**Short:** Revenue sharing, grants, recognition, data rights: the economic engine of governance that aligns self-interest with ecosystem interest.
 
 ## Constraints
 

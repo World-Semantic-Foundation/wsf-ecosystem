@@ -15,15 +15,15 @@ domain: Structure
 
 ## Definition
 
-**Short:** The foundational asset — technological, brand, or infrastructural — upon which ecosystem interactions occur.
+**Short:** The foundational asset (technological, brand, or infrastructural) upon which ecosystem interactions occur.
 
-**Intuition:** The thing itself — the technology stack, the brand, the marketplace infrastructure — that the ecosystem is built around. *Platform is the asset; the ecosystem is the community.*
+**Intuition:** The thing itself: the technology stack, the brand, the marketplace infrastructure: that the ecosystem is built around. *Platform is the asset; the ecosystem is the community.*
 
 ## Necessary conditions
 
 1. All Entity necessary conditions (inherited).
-2. **Multi-actor affordance** — MUST enable interaction between multiple actors.
-3. **Foundational role** — MUST function as the substrate (not merely a participant) of the ecosystem.
+2. **Multi-actor affordance**: MUST enable interaction between multiple actors.
+3. **Foundational role**: MUST function as the substrate (not merely a participant) of the ecosystem.
 
 ## Constraints
 

@@ -1,6 +1,6 @@
-# Research 03 — Relationship Grammar
+# Research 03: Relationship Grammar
 
-> Investigation finding — the 15 relational properties (the "verbs") of ecosystem ontology, grounded against the WSF Semantic Relationship Model (ADR-WSF-19) and prepared for inclusion in the WSF Semantic Relationship Catalogue.
+> Investigation finding: the 15 relational properties (the "verbs") of ecosystem ontology, grounded against the WSF Semantic Relationship Model (ADR-WSF-19) and prepared for inclusion in the WSF Semantic Relationship Catalogue.
 
 ## 1. Purpose
 
@@ -144,7 +144,7 @@ A class taxonomy is meaningless without a relationship grammar. The 15 relationa
 ### 2.14 `wsf-rel:slips_value_to`
 
 - **Domain:** `Actor` (or ecosystem)
-- **Range:** `Actor` (typically external — competitor, free-rider, regulator)
+- **Range:** `Actor` (typically external: competitor, free-rider, regulator)
 - **Symmetric:** false
 - **Transitive:** false
 - **Inverse:** `wsf-rel:value_slips_from`
@@ -163,27 +163,27 @@ A class taxonomy is meaningless without a relationship grammar. The 15 relationa
 
 ## 3. Modelling rules (governing the use of these predicates)
 
-### Rule R1 — Overlapping Roles require context scoping
+### Rule R1: Overlapping Roles require context scoping
 
-All actor-role predicates (`orchestrates`, `complements`, `delegates_governance_to`, etc.) MUST be scoped to a context (platform, layer, time). Apple is Orchestrator of iOS and Complementor to hardware suppliers — these are different assertions on different platforms and layers.
+All actor-role predicates (`orchestrates`, `complements`, `delegates_governance_to`, etc.) MUST be scoped to a context (platform, layer, time). Apple is Orchestrator of iOS and Complementor to hardware suppliers: these are different assertions on different platforms and layers.
 
-### Rule R2 — Coopetition is a co-existence of competing and cooperating predicates
+### Rule R2: Coopetition is a co-existence of competing and cooperating predicates
 
 Modelling coopetition requires asserting BOTH `competes_with` AND `cooperates_with` between the same actor pair, scoped to different layers. The pair is in coopetition iff the two predicates coexist with non-overlapping layer contexts.
 
-### Rule R3 — Network Effects are relational properties, not actor attributes
+### Rule R3: Network Effects are relational properties, not actor attributes
 
 `exhibits` MUST attach the Network Effect to the Platform (or actor-relationship), not to a single actor. Network effects are emergent properties of the actor network.
 
-### Rule R4 — Lifecycle stage assertions MUST be time-qualified
+### Rule R4: Lifecycle stage assertions MUST be time-qualified
 
-Every `is_in_lifecycle_stage` assertion MUST carry a time validity period. An ecosystem was in Birth in 2018 and is in Leadership in 2026 — both can be historically true.
+Every `is_in_lifecycle_stage` assertion MUST carry a time validity period. An ecosystem was in Birth in 2018 and is in Leadership in 2026: both can be historically true.
 
-### Rule R5 — Coupling Level requires degree assertion
+### Rule R5: Coupling Level requires degree assertion
 
 Every `is_coupled_with` assertion MUST specify the degree (Tight or Loose) and the dimension (technical, contractual, data, etc.).
 
-### Rule R6 — Value flow predicates require directionality and magnitude
+### Rule R6: Value flow predicates require directionality and magnitude
 
 Every `exchanges_value_with`, `captures_value_from`, and `slips_value_to` assertion SHOULD carry directionality (inherently from domain/range) and magnitude (when measurable).
 

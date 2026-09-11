@@ -11,7 +11,7 @@ aliases: [Ecosystem (general), System-of-Systems]
 status: Baseline (worked-example designation pending ADR-WSF-28 ratification)
 version: 0.1.0
 defined_by: ADR-WSF-28 (proposed)
-classification: Tier 3 (Worked Example — analogous to Capability)
+classification: Tier 3 (Worked Example: analogous to Capability)
 parent: wsf:System
 domain: Condition (Emergent properties)
 ```
@@ -22,19 +22,19 @@ domain: Condition (Emergent properties)
 
 **Long:** An Ecosystem is a complex, adaptive system composed of multiple interacting Entities (organisations, individuals, or digital agents) that exchange Value, share a Context, exhibit mutual influence, and produce emergent, system-level properties that none of the constituent entities produces alone. An Ecosystem is bounded by the set of entities whose behaviour materially affects and is affected by the other entities within the system.
 
-**Intent:** To provide the foundational domain primitive for ecosystem ontology — a concept that can ground the entire ecosystem vocabulary (actors, platforms, value dynamics, governance, lifecycle, health) without requiring the foundation to absorb every domain construct.
+**Intent:** To provide the foundational domain primitive for ecosystem ontology: a concept that can ground the entire ecosystem vocabulary (actors, platforms, value dynamics, governance, lifecycle, health) without requiring the foundation to absorb every domain construct.
 
-**Intuition:** What you have when the relationships *between* entities become as consequential as the entities *themselves* — when the whole genuinely exhibits behaviours no part exhibits alone.
+**Intuition:** What you have when the relationships *between* entities become as consequential as the entities *themselves*: when the whole genuinely exhibits behaviours no part exhibits alone.
 
 ## Conditions
 
 ### Necessary conditions
 
-1. **Multiplicity of entities** — MUST involve more than one Entity.
-2. **Interaction** — Entities MUST interact (Value Exchange, Assertion, or other Relationship kinds).
-3. **Mutual influence** — Behaviour of each entity MUST materially affect and be affected by others.
-4. **Shared context** — All entities MUST operate within a Context.
-5. **Emergence** — The system MUST exhibit properties (Network Effects, Lock-In, Health, Lifecycle) not attributable to any single entity.
+1. **Multiplicity of entities**: MUST involve more than one Entity.
+2. **Interaction**: Entities MUST interact (Value Exchange, Assertion, or other Relationship kinds).
+3. **Mutual influence**: Behaviour of each entity MUST materially affect and be affected by others.
+4. **Shared context**: All entities MUST operate within a Context.
+5. **Emergence**: The system MUST exhibit properties (Network Effects, Lock-In, Health, Lifecycle) not attributable to any single entity.
 
 ### Sufficient conditions
 
@@ -124,10 +124,10 @@ ecosystem:
 
 ## Cross-references
 
-- ADR-WSF-17 (Foundational Semantic Architecture) — defines the Tier 3 specialisation pattern
-- ADR-WSF-04 (Semantic Inheritance) — governs specialisation rules
-- ADR-WSF-20 (Concept Definition Model) — defines this concept's metadata schema
-- ADR-WSF-07 (Capacity–Ability–Capability) — precedent for worked-example treatment
+- ADR-WSF-17 (Foundational Semantic Architecture): defines the Tier 3 specialisation pattern
+- ADR-WSF-04 (Semantic Inheritance): governs specialisation rules
+- ADR-WSF-20 (Concept Definition Model): defines this concept's metadata schema
+- ADR-WSF-07 (Capacity, Ability, and Capability): precedent for worked-example treatment
 
 ---
 

@@ -17,13 +17,13 @@ domain: Governance
 
 **Short:** Individuals or units responsible for managing interfaces and communication between the ecosystem and external, non-member entities (regulators, legacy systems, adjacent ecosystems).
 
-**Intuition:** The "diplomatic corps" of the ecosystem — manages the interface to the environment and is the buffer against external shocks.
+**Intuition:** The "diplomatic corps" of the ecosystem: manages the interface to the environment and is the buffer against external shocks.
 
 ## Necessary conditions
 
 1. All Actor necessary conditions (inherited).
-2. **Interface authority** — MUST have authority to engage with external entities on the ecosystem's behalf.
-3. **Boundary management** — MUST translate between ecosystem-internal and ecosystem-external vocabularies and norms.
+2. **Interface authority**: MUST have authority to engage with external entities on the ecosystem's behalf.
+3. **Boundary management**: MUST translate between ecosystem-internal and ecosystem-external vocabularies and norms.
 
 ## Constraints
 

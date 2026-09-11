@@ -15,15 +15,15 @@ domain: Structure (Gawer's construct)
 
 ## Definition
 
-**Short:** The tools, interfaces, and documentation provided by the Orchestrator to enable Complementors to build on the platform — e.g., APIs, SDKs, sandboxes, developer portals (Gawer).
+**Short:** The tools, interfaces, and documentation provided by the Orchestrator to enable Complementors to build on the platform: e.g., APIs, SDKs, sandboxes, developer portals (Gawer).
 
-**Intuition:** The "open door" of the platform — concrete, engineered surfaces that determine what complementors can build.
+**Intuition:** The "open door" of the platform: concrete, engineered surfaces that determine what complementors can build.
 
 ## Necessary conditions
 
 1. All Entity necessary conditions (inherited).
-2. **Orchestrator provision** — MUST be provided by an Orchestrator (or a delegated actor).
-3. **Complementor enabling** — MUST be designed for and consumable by Complementors.
+2. **Orchestrator provision**: MUST be provided by an Orchestrator (or a delegated actor).
+3. **Complementor enabling**: MUST be designed for and consumable by Complementors.
 
 ## Constraints
 

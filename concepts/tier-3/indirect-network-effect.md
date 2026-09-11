@@ -18,7 +18,7 @@ parent: wsf:Network Effect
 
 ## Canonical example
 
-The App Store — more developers attract more users, and more users attract more developers.
+The App Store: more developers attract more users, and more users attract more developers.
 
 ---
 

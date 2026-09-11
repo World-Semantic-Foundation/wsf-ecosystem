@@ -17,17 +17,17 @@ domain: Structure / Governance
 
 **Short:** Shared protocols, data formats, and technical rules that allow distinct actors to interact with low friction.
 
-**Intuition:** The connective tissue — what makes loose coupling work.
+**Intuition:** The connective tissue: what makes loose coupling work.
 
 ## Necessary conditions
 
 1. All Rule necessary conditions (inherited).
-2. **Shared adoption** — MUST be adopted by multiple actors.
-3. **Friction reduction** — MUST materially reduce interaction cost.
+2. **Shared adoption**: MUST be adopted by multiple actors.
+3. **Friction reduction**: MUST materially reduce interaction cost.
 
 ## Constraints
 
-- Standard-setting is political — standards confer power.
+- Standard-setting is political: standards confer power.
 - Premature standardisation can freeze inferior designs.
 
 ## Relationships

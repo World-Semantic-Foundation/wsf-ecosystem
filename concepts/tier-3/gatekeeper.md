@@ -17,13 +17,13 @@ domain: Governance
 
 **Short:** The actor (or automated system) responsible for quality control, security, and standards enforcement before a complementor's offering reaches the end-user.
 
-**Intuition:** The bouncer at the door of the ecosystem — sets and enforces the quality bar that determines which offerings are admitted.
+**Intuition:** The bouncer at the door of the ecosystem: sets and enforces the quality bar that determines which offerings are admitted.
 
 ## Necessary conditions
 
 1. All Actor necessary conditions (inherited).
-2. **Standards authority** — MUST have authority to admit, reject, or remove offerings.
-3. **Quality enforcement** — MUST apply quality, security, or compliance criteria.
+2. **Standards authority**: MUST have authority to admit, reject, or remove offerings.
+3. **Quality enforcement**: MUST apply quality, security, or compliance criteria.
 
 ## Constraints
 

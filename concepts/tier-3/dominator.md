@@ -8,26 +8,26 @@ preferred_name: Dominator
 aliases: [Keystone Competitor]
 status: Baseline
 version: 0.1.0
-classification: Tier 3 (Specialisation — degraded variant)
+classification: Tier 3 (Specialisation: degraded variant)
 parent: wsf:Orchestrator
 domain: Business Ecosystem
 ```
 
 ## Definition
 
-**Short:** An Orchestrator that has degraded into value-extraction behaviour — extracting disproportionate value, stifling niche players, and harming the long-term health of the ecosystem.
+**Short:** An Orchestrator that has degraded into value-extraction behaviour: extracting disproportionate value, stifling niche players, and harming the long-term health of the ecosystem.
 
-**Intuition:** The Orchestrator that has captured too much value — the iOS-Apple-30%-commission caricature, but also a behavioural state, not a fixed classification.
+**Intuition:** The Orchestrator that has captured too much value: the iOS-Apple-30%-commission caricature, but also a behavioural state, not a fixed classification.
 
 ## Necessary conditions
 
 1. All Orchestrator necessary conditions (inherited).
-2. **Disproportionate value extraction** — MUST capture a share of value materially exceeding its contribution.
-3. **Niche stifling** — MUST engage in behaviour that systematically reduces complementor viability (excessive fees, self-preferencing, scope creep).
+2. **Disproportionate value extraction**: MUST capture a share of value materially exceeding its contribution.
+3. **Niche stifling**: MUST engage in behaviour that systematically reduces complementor viability (excessive fees, self-preferencing, scope creep).
 
 ## Constraints
 
-- The keystone-to-dominator drift is **behavioural** — it is captured as a transition between `Orchestrator` and `Dominator` states with provenance. A Dominator that reforms its behaviour transitions back to Orchestrator.
+- The keystone-to-dominator drift is **behavioural**: it is captured as a transition between `Orchestrator` and `Dominator` states with provenance. A Dominator that reforms its behaviour transitions back to Orchestrator.
 
 ## Relationships
 

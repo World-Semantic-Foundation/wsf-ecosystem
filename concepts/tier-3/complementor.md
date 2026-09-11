@@ -17,17 +17,17 @@ domain: Business Ecosystem
 
 **Short:** An actor that creates value by adding specialised products, services, or content to the core platform, increasing its overall utility.
 
-**Intuition:** The actors that "complete" the platform by filling niches the Orchestrator does not serve — third-party app developers, integrators, content creators, downstream service providers.
+**Intuition:** The actors that "complete" the platform by filling niches the Orchestrator does not serve: third-party app developers, integrators, content creators, downstream service providers.
 
 ## Necessary conditions
 
 1. All Actor necessary conditions (inherited).
-2. **Platform complementarity** — MUST create offerings that increase the platform's value to other actors.
-3. **Independence of offering** — MUST produce offerings not already provided by the Orchestrator (otherwise it is redundant, not complementary).
+2. **Platform complementarity**: MUST create offerings that increase the platform's value to other actors.
+3. **Independence of offering**: MUST produce offerings not already provided by the Orchestrator (otherwise it is redundant, not complementary).
 
 ## Constraints
 
-- Complementors depend on the platform yet may compete with the Orchestrator (coopetition) — see `research/03-relationship-grammar/` Rule R2.
+- Complementors depend on the platform yet may compete with the Orchestrator (coopetition): see `research/03-relationship-grammar/` Rule R2.
 - Survival rate of complementors is a key indicator of Ecosystem Health (specifically `Niche Creation`).
 
 ## Relationships

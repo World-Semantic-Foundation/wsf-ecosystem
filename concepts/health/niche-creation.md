@@ -18,7 +18,7 @@ domain: Health Metrics
 
 ## Concerns
 
-- The most forward-looking metric — and the earliest casualty of dominator behaviour.
+- The most forward-looking metric: and the earliest casualty of dominator behaviour.
 
 ---
 

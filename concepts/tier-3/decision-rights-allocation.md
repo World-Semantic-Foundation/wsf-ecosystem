@@ -1,6 +1,6 @@
 # Decision Rights Allocation
 
-> **The formal distribution of authority — who may decide pricing, feature development, standards, and dispute resolution.**
+> **The formal distribution of authority: who may decide pricing, feature development, standards, and dispute resolution.**
 
 ```yaml
 semantic_id: wsf:Decision Rights Allocation
@@ -15,7 +15,7 @@ domain: Governance
 
 ## Definition
 
-**Short:** The mechanism that operationalises Governance — the formal distribution of decision-making authority across roles.
+**Short:** The mechanism that operationalises Governance: the formal distribution of decision-making authority across roles.
 
 ## Constraints
 

@@ -18,7 +18,7 @@ parent: wsf:Network Effect
 
 ## Canonical example
 
-A social network — more users of the same type (people wanting to socialise) makes the network more valuable to each user.
+A social network: more users of the same type (people wanting to socialise) makes the network more valuable to each user.
 
 ---
 

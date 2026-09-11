@@ -7,7 +7,7 @@ semantic_id: wsf:Modularity
 preferred_name: Modularity
 status: Baseline
 version: 0.1.0
-classification: Tier 3 (Specialisation — disposition)
+classification: Tier 3 (Specialisation: disposition)
 parent: wsf:Disposition
 domain: Structure
 ```
@@ -20,9 +20,9 @@ domain: Structure
 
 ## Necessary conditions
 
-1. All Disposition necessary conditions (inherited — modularity is a disposition of the platform).
-2. **Decomposability** — The system MUST be decomposable into independently-modifiable components.
-3. **Interface definition** — Component interfaces MUST be specified and stable.
+1. All Disposition necessary conditions (inherited: modularity is a disposition of the platform).
+2. **Decomposability**: The system MUST be decomposable into independently-modifiable components.
+3. **Interface definition**: Component interfaces MUST be specified and stable.
 
 ## Constraints
 

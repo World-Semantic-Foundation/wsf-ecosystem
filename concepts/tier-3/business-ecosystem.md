@@ -29,9 +29,9 @@ domain: Business Strategy / Platform Economics
 ### Necessary
 
 1. All Ecosystem necessary conditions (inherited).
-2. **Economic agency** — constituent entities MUST have economic agency.
-3. **Value orientation** — interactions MUST be oriented toward value creation, exchange, or capture.
-4. **Shared market context** — entities MUST operate within a shared market, regulatory, or competitive context.
+2. **Economic agency**: constituent entities MUST have economic agency.
+3. **Value orientation**: interactions MUST be oriented toward value creation, exchange, or capture.
+4. **Shared market context**: entities MUST operate within a shared market, regulatory, or competitive context.
 
 ### Sufficient
 

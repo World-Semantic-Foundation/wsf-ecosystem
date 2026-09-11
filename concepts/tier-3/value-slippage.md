@@ -14,9 +14,9 @@ domain: Value Dynamics
 
 ## Definition
 
-**Short:** The portion of generated value that escapes capture by ecosystem participants — leaking to competitors, free-riders, or legacy intermediaries.
+**Short:** The portion of generated value that escapes capture by ecosystem participants: leaking to competitors, free-riders, or legacy intermediaries.
 
-**Intuition:** The "value leak" — the inverse lens on capture. A healthy-looking ecosystem can fail to monetise because of value slippage.
+**Intuition:** The "value leak": the inverse lens on capture. A healthy-looking ecosystem can fail to monetise because of value slippage.
 
 ## Constraints
 

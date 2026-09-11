@@ -1,4 +1,4 @@
-# Proposal 03 — Digital Business Ecosystem (Tier 3 Specialisation of `wsf:Business Ecosystem`)
+# Proposal 03: Digital Business Ecosystem (Tier 3 Specialisation of `wsf:Business Ecosystem`)
 
 > **Status:** Candidate → Investigating
 > **Proposed tier:** Tier 3 (specialisation)
@@ -17,11 +17,11 @@ A Business Ecosystem where digital technology is the primary medium of value int
 
 ## 3. Intent
 
-To specialise the Business Ecosystem concept with the digital-medium constraint — distinguishing DBEs from ecosystems whose interactions are primarily physical, analog, or human-mediated. This is the most commercially consequential Business Ecosystem subtype in the current era.
+To specialise the Business Ecosystem concept with the digital-medium constraint: distinguishing DBEs from ecosystems whose interactions are primarily physical, analog, or human-mediated. This is the most commercially consequential Business Ecosystem subtype in the current era.
 
 ## 4. Intuition
 
-A digital business ecosystem is what you have when the interactions between business actors are mediated and constituted by digital artefacts — APIs, software platforms, data flows, digital services — to such a degree that the digital substrate is the dominant enabler and shaper of value creation.
+A digital business ecosystem is what you have when the interactions between business actors are mediated and constituted by digital artefacts: APIs, software platforms, data flows, digital services: to such a degree that the digital substrate is the dominant enabler and shaper of value creation.
 
 ## 5. Necessary conditions
 

@@ -15,20 +15,20 @@ domain: Business Ecosystem
 
 ## Definition
 
-**Short:** The central entity that provides the core platform, sets standards, manages ecosystem health, and shapes the rules of engagement — creating shared value rather than merely extracting it.
+**Short:** The central entity that provides the core platform, sets standards, manages ecosystem health, and shapes the rules of engagement: creating shared value rather than merely extracting it.
 
-**Intuition:** The "lead animal" of the ecosystem — not always the largest, but the one whose decisions most shape the system's behaviour.
+**Intuition:** The "lead animal" of the ecosystem: not always the largest, but the one whose decisions most shape the system's behaviour.
 
 ## Necessary conditions
 
 1. All Actor necessary conditions (inherited).
-2. **Platform provision** — MUST provide (or orchestrate) a core Platform.
-3. **Standards setting** — MUST set or enforce ecosystem standards (technical, contractual, or normative).
-4. **Ecosystem health management** — MUST engage in actions that affect ecosystem-level health.
+2. **Platform provision**: MUST provide (or orchestrate) a core Platform.
+3. **Standards setting**: MUST set or enforce ecosystem standards (technical, contractual, or normative).
+4. **Ecosystem health management**: MUST engage in actions that affect ecosystem-level health.
 
 ## Constraints
 
-- The keystone-to-dominator drift is a **governance failure mode**, not a different classification — a Keyston's drift into extraction transforms it into a `wsf:Dominator` (see `dominator.md`).
+- The keystone-to-dominator drift is a **governance failure mode**, not a different classification: a Keyston's drift into extraction transforms it into a `wsf:Dominator` (see `dominator.md`).
 
 ## Relationships
 

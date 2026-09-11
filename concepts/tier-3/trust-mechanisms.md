@@ -15,7 +15,7 @@ domain: Governance
 
 ## Definition
 
-**Short:** Reviews, escrow, certification, reputation scores — the institutional or algorithmic systems that enable low-friction value exchange among strangers.
+**Short:** Reviews, escrow, certification, reputation scores: the institutional or algorithmic systems that enable low-friction value exchange among strangers.
 
 ## Constraints
 

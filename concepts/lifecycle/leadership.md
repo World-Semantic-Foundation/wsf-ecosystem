@@ -8,7 +8,7 @@ preferred_name: Leadership / Authority (Lifecycle Stage)
 aliases: [Authority, Maturity]
 status: Baseline
 version: 0.1.0
-classification: Tier 3 (Specialisation — state)
+classification: Tier 3 (Specialisation: state)
 parent: wsf:State
 ```
 

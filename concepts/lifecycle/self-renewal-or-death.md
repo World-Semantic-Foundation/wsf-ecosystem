@@ -1,6 +1,6 @@
 # Self-Renewal or Death
 
-> **The critical bifurcation — radically innovate to survive external shocks, or decline into obsolescence.**
+> **The critical bifurcation: radically innovate to survive external shocks, or decline into obsolescence.**
 
 ```yaml
 semantic_id: wsf:Self-Renewal or Death
@@ -8,13 +8,13 @@ preferred_name: Self-Renewal or Death (Lifecycle Stage)
 aliases: [Bifurcation, Renewal, Death]
 status: Baseline
 version: 0.1.0
-classification: Tier 3 (Specialisation — state)
+classification: Tier 3 (Specialisation: state)
 parent: wsf:State
 ```
 
 ## Definition
 
-**Short:** The critical bifurcation — radically innovate to survive external shocks, or decline into obsolescence.
+**Short:** The critical bifurcation: radically innovate to survive external shocks, or decline into obsolescence.
 
 ## Concerns
 

@@ -20,7 +20,7 @@ domain: Digital Transformation / Platform Strategy
 
 **Short:** A Business Ecosystem in which digital technology (software platforms, data infrastructure, APIs, digital services, or digital artefacts) constitutes the primary medium of interaction, value exchange, and co-creation.
 
-**Intent:** To specialise Business Ecosystem with the digital-medium constraint — the most commercially consequential subtype in the current era.
+**Intent:** To specialise Business Ecosystem with the digital-medium constraint: the most commercially consequential subtype in the current era.
 
 **Intuition:** What you have when interactions between business actors are mediated by digital artefacts (APIs, software platforms, data flows) to such a degree that the digital substrate is the dominant enabler.
 
@@ -29,8 +29,8 @@ domain: Digital Transformation / Platform Strategy
 ### Necessary
 
 1. All Business Ecosystem necessary conditions (inherited).
-2. **Digital-medium constraint** — a significant majority of interactions, exchanges, and assertions MUST be mediated by digital artefacts.
-3. **Digital artefact agency** — software, data, or algorithmic systems MUST play a non-trivial role.
+2. **Digital-medium constraint**: a significant majority of interactions, exchanges, and assertions MUST be mediated by digital artefacts.
+3. **Digital artefact agency**: software, data, or algorithmic systems MUST play a non-trivial role.
 
 ### Sufficient
 

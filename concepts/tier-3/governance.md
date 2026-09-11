@@ -14,9 +14,9 @@ domain: Governance
 
 ## Definition
 
-**Short:** In ecosystems, governance substitutes for hierarchical control — the rules, policies, and decision processes governing actor behaviour and dispute resolution.
+**Short:** In ecosystems, governance substitutes for hierarchical control: the rules, policies, and decision processes governing actor behaviour and dispute resolution.
 
-**Intuition:** The constitution and rulebook of the ecosystem — what makes cooperation possible without hierarchy.
+**Intuition:** The constitution and rulebook of the ecosystem: what makes cooperation possible without hierarchy.
 
 ## Relationships
 

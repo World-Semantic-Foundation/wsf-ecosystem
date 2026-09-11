@@ -17,13 +17,13 @@ domain: Structure
 
 **Short:** A Platform subtype that intermediates transactions between distinct actor groups, monetising via take rates.
 
-**Intuition:** A transaction venue — eBay, Amazon Marketplace, App Store, OTCHERE Marketplace.
+**Intuition:** A transaction venue: eBay, Amazon Marketplace, App Store, OTCHERE Marketplace.
 
 ## Necessary conditions
 
 1. All Platform necessary conditions (inherited).
-2. **Multi-sided intermediation** — MUST connect at least two distinct actor groups in a transaction relationship.
-3. **Take-rate monetisation** — MUST extract value via per-transaction fees (or equivalent monetisation mechanism).
+2. **Multi-sided intermediation**: MUST connect at least two distinct actor groups in a transaction relationship.
+3. **Take-rate monetisation**: MUST extract value via per-transaction fees (or equivalent monetisation mechanism).
 
 ## Relationships
 

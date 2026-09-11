@@ -7,7 +7,7 @@ semantic_id: wsf:Expansion
 preferred_name: Expansion (Lifecycle Stage)
 status: Baseline
 version: 0.1.0
-classification: Tier 3 (Specialisation — state)
+classification: Tier 3 (Specialisation: state)
 parent: wsf:State
 ```
 

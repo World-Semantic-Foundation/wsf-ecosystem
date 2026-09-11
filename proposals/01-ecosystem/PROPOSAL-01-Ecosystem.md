@@ -1,4 +1,4 @@
-# Proposal 01 — Ecosystem as a Tier 3 Worked Example (Specialisation of `wsf:System`)
+# Proposal 01: Ecosystem as a Tier 3 Worked Example (Specialisation of `wsf:System`)
 
 > **Status:** Candidate → Investigating
 > **Proposed tier:** Worked Example (Tier 3 + demonstration status, analogous to `Capability`)
@@ -18,16 +18,16 @@ A system of interacting entities exhibiting emergent properties through mutual i
 
 ## 3. Intent
 
-To provide the foundational domain primitive for ecosystem ontology — a concept that can ground the entire ecosystem vocabulary (actors, platforms, value dynamics, governance, lifecycle, health) without requiring the foundation to absorb every domain construct.
+To provide the foundational domain primitive for ecosystem ontology: a concept that can ground the entire ecosystem vocabulary (actors, platforms, value dynamics, governance, lifecycle, health) without requiring the foundation to absorb every domain construct.
 
 ## 4. Intuition
 
-An ecosystem is what you have when the relationships *between* entities become as consequential as the entities *themselves* — when the whole genuinely exhibits behaviours no part exhibits alone (Moore's "co-evolution", Iansiti & Levien's "keystone advantage", network effects, lock-in).
+An ecosystem is what you have when the relationships *between* entities become as consequential as the entities *themselves*: when the whole genuinely exhibits behaviours no part exhibits alone (Moore's "co-evolution", Iansiti & Levien's "keystone advantage", network effects, lock-in).
 
 ## 5. Necessary conditions
 
 1. **Multiplicity of entities.** MUST involve more than one Entity. A single entity is not an ecosystem.
-2. **Interaction.** Entities MUST interact — through Value Exchange, Assertion, or other Relationship kinds — not merely coexist.
+2. **Interaction.** Entities MUST interact: through Value Exchange, Assertion, or other Relationship kinds: not merely coexist.
 3. **Mutual influence.** The behaviour of each entity MUST materially affect and be affected by the others.
 4. **Shared context.** All entities MUST operate within a Context (organisational, technological, regulatory, geographic, or market).
 5. **Emergence.** The system as a whole MUST exhibit properties (Network Effects, Lock-In, Health, Lifecycle stage) that are not attributable to any single entity.
@@ -55,9 +55,9 @@ A set of entities is an Ecosystem if and only if:
 
 ### Positive
 
-- A mobile platform with developers, users, advertisers, and device manufacturers — mutual influence via Network Effects and shared context of the platform.
-- A healthcare ecosystem with providers, payers, patients, regulators, and pharmaceutical companies — shared context of the regulatory and clinical environment.
-- An open-source software ecosystem with maintainers, contributors, downstream packagers, and end users — shared context of the code repository and governance rules.
+- A mobile platform with developers, users, advertisers, and device manufacturers: mutual influence via Network Effects and shared context of the platform.
+- A healthcare ecosystem with providers, payers, patients, regulators, and pharmaceutical companies: shared context of the regulatory and clinical environment.
+- An open-source software ecosystem with maintainers, contributors, downstream packagers, and end users: shared context of the code repository and governance rules.
 
 ### Negative
 
@@ -72,7 +72,7 @@ A set of entities is an Ecosystem if and only if:
 
 ## 10. Context applicability
 
-- **Universal:** false — Ecosystem is a domain-level concept, not a universal primitive.
+- **Universal:** false: Ecosystem is a domain-level concept, not a universal primitive.
 - **Applicable contexts:** business strategy, platform economics, innovation studies, ecological biology (borrowed term), digital transformation.
 
 ## 11. Governance
@@ -94,7 +94,7 @@ Per ADR-WSF-17 §"Disposition Model" and the precedent of `Capability`, a domain
 
 - It is the **root concept** of an entire domain (business ecosystem, digital ecosystem, innovation ecosystem, etc.).
 - It grounds a **relational layer** that other WSF concepts do not need (the "verbs" of ecosystem ontology).
-- Its worked-example treatment **demonstrates the full specialisation chain** — Tier 1 primitive (`wsf:System`) → Tier 3 specialisation (`Ecosystem`) → Tier 3 sub-specialisations (`Business Ecosystem`, `Digital Business Ecosystem`) → actor taxonomy and value dynamics.
+- Its worked-example treatment **demonstrates the full specialisation chain**: Tier 1 primitive (`wsf:System`) → Tier 3 specialisation (`Ecosystem`) → Tier 3 sub-specialisations (`Business Ecosystem`, `Digital Business Ecosystem`) → actor taxonomy and value dynamics.
 
 ## 14. Canonical example (per WSF Example Consistency Principle)
 

@@ -1,6 +1,6 @@
 # Value Co-creation
 
-> **Value generated jointly by Orchestrator, Complementors, and Users — not produced upstream and passed downstream.**
+> **Value generated jointly by Orchestrator, Complementors, and Users: not produced upstream and passed downstream.**
 
 ```yaml
 semantic_id: wsf:Value Co-creation
@@ -14,7 +14,7 @@ domain: Value Dynamics
 
 ## Definition
 
-**Short:** Value generated jointly by multiple actors through a platform — the multi-actor, generative counterpart to transactional Value Exchange.
+**Short:** Value generated jointly by multiple actors through a platform: the multi-actor, generative counterpart to transactional Value Exchange.
 
 ## Relationships
 

@@ -4,7 +4,7 @@
 
 ```yaml
 collection_semantic_id: wsf:Ecosystem Lifecycle Stages
-classification: Tier 3 (Specialisation — states)
+classification: Tier 3 (Specialisation: states)
 parent: wsf:State
 domain: Temporal
 stages: [Birth, Expansion, Leadership, Self-Renewal or Death]
@@ -12,7 +12,7 @@ stages: [Birth, Expansion, Leadership, Self-Renewal or Death]
 
 ## Overview
 
-An ecosystem MUST be modelled with temporal state — health metrics, governance needs, and dominant risks differ per stage.
+An ecosystem MUST be modelled with temporal state: health metrics, governance needs, and dominant risks differ per stage.
 
 ## The four stages
 
@@ -36,10 +36,10 @@ An ecosystem MUST be modelled with temporal state — health metrics, governance
 
 - Stages are **states**, not a strictly linear path. Allowed transitions:
   - Birth → Expansion → Leadership → Self-Renewal/Death (canonical)
-  - Self-Renewal/Death → Birth (after successful renewal — regress to a new Birth state)
+  - Self-Renewal/Death → Birth (after successful renewal: regress to a new Birth state)
   - Leadership → Expansion (after major shock)
 - Each stage MUST be asserted with time validity period.
-- Health, governance, and risk profiles differ per stage — prescriptive analysis requires stage context.
+- Health, governance, and risk profiles differ per stage: prescriptive analysis requires stage context.
 
 ## Per-stage concept files
 

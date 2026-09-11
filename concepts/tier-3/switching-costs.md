@@ -7,16 +7,16 @@ semantic_id: wsf:Switching Costs
 preferred_name: Switching Costs
 status: Baseline
 version: 0.1.0
-classification: Tier 3 (Specialisation — disposition)
+classification: Tier 3 (Specialisation: disposition)
 parent: wsf:Disposition
 domain: Value Dynamics
 ```
 
 ## Definition
 
-**Short:** The friction — financial, technical, or psychological — an actor faces when leaving the ecosystem.
+**Short:** The friction: financial, technical, or psychological: an actor faces when leaving the ecosystem.
 
-**Intuition:** What makes users stay — and what regulators increasingly scrutinise when artificial.
+**Intuition:** What makes users stay: and what regulators increasingly scrutinise when artificial.
 
 ## Constraints
 

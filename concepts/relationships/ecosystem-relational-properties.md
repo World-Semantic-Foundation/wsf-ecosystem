@@ -24,14 +24,14 @@ This file is a curated supplement to the WSF Semantic Relationship Catalogue. Th
 | 14 | `wsf-rel-eco:slips_value_to` | Actor / Ecosystem | Actor | false | `value_slips_from` |
 | 15 | `wsf-rel-eco:delegates_governance_to` | Orchestrator | Actor | false | `is_delegated_governance_by` |
 
-## Modelling rules (summary — full text in `research/03-relationship-grammar/`)
+## Modelling rules (summary: full text in `research/03-relationship-grammar/`)
 
-1. **R1 — Overlapping Roles:** All actor-role predicates MUST be context-scoped (platform, layer, time).
-2. **R2 — Coopetition:** Modelled as the co-existence of `competes_with` AND `cooperates_with` between the same pair, scoped per layer.
-3. **R3 — Network Effects are relational:** `exhibits` attaches the effect to the Platform or relationship, NEVER to a single actor.
-4. **R4 — Lifecycle time-qualified:** Every `is_in_lifecycle_stage` assertion MUST carry time validity.
-5. **R5 — Coupling requires degree:** Every `is_coupled_with` MUST specify degree (Tight/Loose) and dimension.
-6. **R6 — Value flow directionality:** Value flow predicates SHOULD carry magnitude when measurable.
+1. **R1: Overlapping Roles:** All actor-role predicates MUST be context-scoped (platform, layer, time).
+2. **R2: Coopetition:** Modelled as the co-existence of `competes_with` AND `cooperates_with` between the same pair, scoped per layer.
+3. **R3: Network Effects are relational:** `exhibits` attaches the effect to the Platform or relationship, NEVER to a single actor.
+4. **R4: Lifecycle time-qualified:** Every `is_in_lifecycle_stage` assertion MUST carry time validity.
+5. **R5: Coupling requires degree:** Every `is_coupled_with` MUST specify degree (Tight/Loose) and dimension.
+6. **R6: Value flow directionality:** Value flow predicates SHOULD carry magnitude when measurable.
 
 ## Composition rules (summary)
 
@@ -41,9 +41,9 @@ This file is a curated supplement to the WSF Semantic Relationship Catalogue. Th
 
 ## Cross-references
 
-- ADR-WSF-19 (Semantic Relationship Model) — the governing metadata schema
-- ADR-WSF-25 (Integration Architecture) — federation patterns for these predicates
-- `research/03-relationship-grammar/` — full grammar
+- ADR-WSF-19 (Semantic Relationship Model): the governing metadata schema
+- ADR-WSF-25 (Integration Architecture): federation patterns for these predicates
+- `research/03-relationship-grammar/`: full grammar
 
 ---
 
