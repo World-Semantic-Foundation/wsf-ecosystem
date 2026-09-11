@@ -68,16 +68,51 @@ The full reasoning per concept is recorded in `governance/TIER-CLASSIFICATION-MA
 
 The tier-classification matrix is the audit trail: every placement cites the validation check applied, and every rejected promotion to a higher tier cites the irreducibility failure.
 
-## 6. Standards of practice
+## 6. Lineage and applied intelligence
 
-The repository is governed by the following standards, which apply to every artifact in this repository and to future contributions.
+This section documents how the vocabulary, concepts, and classifications in this repository trace to the source documents that produced them. The lineage is recorded so that every substantive claim can be audited against its origin.
 
-- **Example convention.** All examples use the canonical enterprise `OTCHERE Inc` and the canonical individual `Kwesi`. ACME is prohibited per the WSF Example Consistency Principle (LOCKED-PICKS v9 §13).
-- **Concept schema.** Every concept file follows the ADR-WSF-20 §14 metadata schema (identification, classification, definition, conditions, constraints, relationships, examples, context, governance, provenance).
-- **Tone.** Prose is normative: it states the concept, not the conversation that produced it. Artifacts read as independent normative documents, not as records of dialogue.
-- **Punctuation.** Em dashes and en dashes are not used. Colons, semicolons, commas, and parentheses carry the structural load that em and en dashes otherwise would.
-- **Punctuation variants (Chinese, Japanese, Korean).** Full-width em dash (U+2014) and en dash (U+2013) are likewise excluded.
-- **Change control.** Every semantic change flows through the WSF Change Control Lifecycle (Discovery, Definition, Review, Authorisation, Formalisation, Publication, Specialisation, Instantiation, Assertion, Evidence, Validation, Governance, Version/Deprecation). All Change Requests (CRs), submittals, and research actions are logged as GitHub Issues in the relevant repository, and factored into the ongoing plans and work of the Ecosystem Working Group.
+### 6.1 Source documents
+
+| Source | Type | Role in the lineage |
+|---|---|---|
+| Moore, J. F. (1993), "Predators and Prey: A New Ecology of Competition," *Harvard Business Review* | Strategy literature | Origin of the ecosystem metaphor and the lifecycle model that grounds the four lifecycle stages in `concepts/lifecycle/`. |
+| Iansiti, M., and Levien, R. (2004), *The Keystone Advantage* | Strategy literature | Origin of the keystone/dominator role pair (Orchestrator, Dominator in `concepts/tier-3/`) and the three health metrics (Productivity, Robustness, Niche Creation in `concepts/health/`). |
+| Gawer, A., research on platforms and boundary resources | Platform economics | Origin of the Boundary Resources concept in `concepts/tier-3/boundary-resources.md`. |
+| Rochet, J. C., and Tirole, J., two-sided market theory | Platform economics | Origin of the Marketplace construct in `concepts/tier-3/marketplace.md`. |
+| Brandenburger, A., and Nalebuff, B., *Co-opetition* | Strategy literature | Origin of the Coopetition construct in `concepts/tier-3/coopetition.md`, modelled as the co-existence of cooperative and competitive predicates between the same actor pair at different layers. |
+| WSF ADR-WSF-07 (Capacity:Ability:Capability) | Foundational ADR | Origin of the worked-example treatment pattern that `wsf:Ecosystem` follows. |
+| WSF ADR-WSF-17 (Foundational Semantic Architecture) | Foundational ADR | Origin of the tier discipline that places every concept in this repository at Tier 3 (none at Tier 1; none at Tier 2). |
+| WSF ADR-WSF-20 (Concept Definition Model) | Foundational ADR | Origin of the metadata schema (§14) that every concept file in this repository follows. |
+| WSF ADR-WSF-29 (Domain-Extension Numbering and Categorisation Convention) | Convention ADR | Origin of the namespace reservation `wsf-rel-eco:` and the categorical classification of this repository as the first WSF domain extension. |
+
+### 6.2 Argument chain: from source to concept
+
+The argument chain runs from the source documents through the investigation findings in `research/` to the concept files in `concepts/`. The chain is recorded in four investigation findings.
+
+1. **Source reconciliation** (`research/01-source-reconciliation/`) maps each concept surfaced by the source documents to its lineage in the Moore, Iansiti-Levien, Gawer, Rochet-Tirole, and Brandenburger-Nalebuff literature, and to its lineage in the WSF Tier 1 primitives. The reconciliation table is the audit trail for the 39 distinct concepts proposed in this repository.
+
+2. **Tier classification rationale** (`research/02-tier-classification/`) applies the four-check validation framework to every concept and records the rejection of Tier 1 and Tier 2 placement with reasoning. The classification matrix in `governance/TIER-CLASSIFICATION-MATRIX.md` is the auditable summary.
+
+3. **Relationship grammar** (`research/03-relationship-grammar/`) establishes the fifteen relational properties (the "verbs") of ecosystem ontology with their domain, range, mathematical properties, and six modelling rules. The grammar is the basis for the `wsf-rel-eco:` namespace reservation.
+
+4. **Modelling risks** (`research/04-modelling-risks/`) catalogues the ten modelling risks in formalising the ecosystem domain against WSF, with mitigations and three open issues flagged for upstream ADR resolution.
+
+### 6.3 Applied intelligence: where the reasoning departed from the sources
+
+Three substantive departures from the source documents are recorded here as applied intelligence, so that the lineage of the reasoning is visible.
+
+1. **`Dominator` is specialisation-of-`Orchestrator`, not specialisation-of-`Actor`.** The Iansiti-Levien framing treats Dominator and Keystone as parallel actor types. The WSF modelling treats Dominator as a degraded state of Orchestrator so that the keystone-to-dominator drift can be expressed as a transition between the two states with provenance, rather than as a separate taxonomy. The reasoning is in `concepts/tier-3/dominator.md` and `research/02-tier-classification/`.
+
+2. **`Network Effect` is a `Disposition` of the actor network, not an attribute of any single firm.** The economics literature treats network effects as a property of platforms or firms. The WSF modelling treats Network Effect as a disposition of the actor network (Platform + Complementors + Users) so that the relational property `exhibits` can attach the effect to the network itself. The reasoning is in `concepts/tier-3/network-effect.md` and `research/03-relationship-grammar/` (Rule R3).
+
+3. **`Coopetition` is modelled as the co-existence of `cooperates_with` and `competes_with` between the same actor pair at different layers.** The Brandenburger-Nalebuff framing treats coopetition as a strategic stance. The WSF modelling treats it as a state plus a relational pattern, so that the cooperative and competitive relations can be asserted separately with layer context. The reasoning is in `concepts/tier-3/coopetition.md` and `research/03-relationship-grammar/` (Rule R2).
+
+### 6.4 Cross-references
+
+- The full lineage from VOCAB-000 v2.0 and ADR-CONCEPTS-01 to the concept files in this repository is documented in `research/01-source-reconciliation/FINDING-Source-Reconciliation.md`.
+- The ADR plan that this repository is intended to ground is documented in `governance/ADR-PLAN.md`.
+- The diagrams in `diagrams/` (Mermaid source, reproducible per CR-WSF-17 Rev.1 §14) reflect the current concept map and lifecycle state space.
 
 ## 7. Status and next moves
 
